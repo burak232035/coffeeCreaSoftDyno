@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    text-align: center;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg,
+            rgb(86, 23, 128) 0%,
+            rgba(253, 29, 43, 0.9346113445378151) 50%,
+            rgba(252, 176, 69, 1) 100%);
+    font-family: "Dancing Script", cursive;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+.coffee-cup-background {
+    background-image: url('coffee-cup.png');
+    position: relative;
+    height: 100%;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    margin: 10px;
+}
+
+.blog-container {
+    background-color: #fff;
+    background-image: url('coffee-cup.png');
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 300px;
+
+}
+
+.blog-container h2 {
+    margin-bottom: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 25px;
+    color: brown;
+    font-weight: bolder;
+    background-color: #dfdfb0;
+
+    font-family: "Dancing Script", cursive;
+
+}
+
+.blog-container button {
+    background-color: #f5f5dc;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blog-container button:hover {
+    background-color: #9c9c76;
+}
+
+footer {
+    background-color: #242420;
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #c84242;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #666;
+    transition: background-color 0.3s ease;
+}
+
+.menu-container {
+    background-color: #f5f5dc;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-container h1 {
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-item .name {
+    margin: 0 20px;
+}
+
+.menu-item .price {
+    font-weight: bold;
+}
+
+.cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #534c4c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cart-icon:hover {
+    background-color: #444;
+}
